@@ -6,4 +6,8 @@ package com.coderedd.adhdapt.viewmodel;
 
 public interface IToolViewModel
 {
+    void toolClicked();
+    int nameResource();
+    int iconResource();
+    int backgroundResource();
 }
