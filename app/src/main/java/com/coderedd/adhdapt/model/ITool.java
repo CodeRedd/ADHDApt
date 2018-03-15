@@ -8,4 +8,8 @@ import android.app.Activity;
 
 public interface ITool
 {
+    void toolClicked();
+    int nameResource();
+    int iconResource();
+    int backgroundResource();
 }
